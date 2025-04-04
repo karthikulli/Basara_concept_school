@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Basara Concept School</title>
+    <link rel="stylesheet" type="text/css" href="basara.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Basara top poster -->
+    <div>
+        <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1735207580/Frame_1_furhd4.png" class="basara_img" style="width:100%; background-size:cover" />
+    </div>
+    <!--Navbar section-->
+    <div class="d-flex flex-row justify-content-start  ">
+        <nav class="navbar navbar-expand-lg navbar-light nav_size " style="background-color:#004a94">
+            <IMG SRC="https://imgs.search.brave.com/dDS00LQIFu4to058vlOISR_Dq9fvr-MuW0NoI83QxbA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saDUu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3Av/QUYxUWlwTUUxd1Rp/cC1XaWtRbVlYWU5x/UTNSSDQtd0pneWxF/c3VDZUJRVUQ9dzMw/MC1oMzAwLWstbm8t/cA" class="basara_logo d-none" />
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" style="background-color:#fff; margin:10px" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav m-auto " style="font-family:sans sefif">
+                    <ul class="navbar"></ul>
+                    <li class="navbar_home_color">
+                        <a class="text-hover pl-3" style="font-weight:400;" href="#" onclick="display('section_home')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="d-flex flex-row">
+                        <a class="text-hover pl-3" style="font-weight:400" href="#">Academics</a>
+                        <ul class="dropdown" style="color:#fff;background-color:#fff;margin-left:10px">
+                            <li>
+                                <a onclick="display('section_Curricular_activities')" style="cursor:pointer;color:#000" class="text-hover">curricular</a>
+                            </li>
+                            <li>
+                                <a onclick="display('section_faculty')" class="text-hover" style="color:#000">Faculty</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-flex flex-row">
+                        <a class="text-hover pl-3" style="font-weight:400;" href="#">Branches</a>
+                        <ul class="dropdown active" style="background-color:#ffffff;margin-left:10px">
+                            <li><a href="#" class="text-hover" onclick="display('section_main_branch_detailed')" style="color:#000">Main Branch</a></li>
+                            <li><a href="#" class="text-hover" onclick="display('section_Nallapadu_branch_detailed')" style="color:#000">Nallapadu</a></li>
+                            <li><a href="#" class="text-hover" onclick="display('section_Vatticheruku_branch_detailed')" style="color:#000">Vatticherukuru</a></li>
+                            <li><a href="#" class="text-hover" onclick="display('section_Nehrunagar_branch_detailed')" style="color:#000">Nehrunagar</a></li>
+                            <li><a href="#" class="text-hover" onclick="display('section_perecherla_branch_detailed')" style="color:#000">Perecherlla</a></li>
+                        </ul>
+                    </li>
+                    <a class="text-hover pl-3" style="font-weight:400" href="#gallary">Gallary</a>
+                    <a class="text-hover pl-3" style="font-weight:400" href="#" data-bs-toggle="modal" data-bs-target="#resultsModal">Results</a>
+                    <a class="text-hover pl-3" style="font-weight:400" href="#" onclick="display('section_about-us_detailed')">About School</a>
+                    <a class="text-hover pl-3" style="font-weight:400" href="#" onclick="display('section_contact')">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--header section-->
+    <header>
+        <marquee scrollamount="8" class=" shadow" style="padding:0px" onmouseover="this.stop();" onmouseout="this.start();">WELCOME TO BASARA CONCEPT SCHOOL
+            <a href="#" class="shadow ml-3" onclick="display('section_online_addmission')">Apply Now for Online Admission</a>
+        </marquee>
+    </header>
+
+    <!--HOME SECTION-->
+    <div id="section_home">
+        <!--Carousel section -->
+        <div class="carousel slide mb-2" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+		    <img src="https://content3.jdmagicbox.com/comp/guntur/dc/9999px863.x863.1239290102e4r1u3.dc/catalogue/loyola-public-school-guntur-ho-guntur-boarding-schools-jfl0dv08av.jpg" class="d-block w-100" style="height:35vh" alt="">
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1734860674/gallary-1_cy9zm6.jpg" class="d-block w-100" style="height:35vh" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ytimg.com/vi/Eb2dAo7YRRc/hqdefault.jpg" class="d-block w-100 " style="height:35vh" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev" style="border-right-color:transparent">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next" style="border-left-color:transparent">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+
+        <!-- Add,SA,ATL_container_SECTION-->
+
+        <div class="container " id="Admissions">
+            <!-- Addmission_section-->
+            <div class="row d-flex flex-row justify-contnent-start addmissions_total_card">
+                <div class="col-12 col-md-6 mt-3 addmissions_image1 " onclick="display('section_addmission_detailed_section')">
+                    <h1 class="addmissions_heading ">Admissions !</h1>
+                </div>
+                <div class="d-md-none addmission_card_sm">
+                    <p class=" sm_para_card">Click here to know more</p>
+                </div>
+                <div class="addmissions_card mt-3 col-12 col-md-6 d-none d-md-block">
+                    <h3 style="color:#BB6A40">Admission_procedure</h3>
+                    <h6 style="color:#BB6A40">Our admissions open annually, inviting students to join a nurturing and dynamic learning environment.</h6><br>
+                    <button onclick="display('section_addmission_detailed_section')" style="color:#BB6A40;border-color:#BB6A40">View More</button>
+                </div>
+            </div>
+            <!--student-approach_section-->
+            <div class="row d-flex flex-row justify-contnent-start addmissions_total_card">
+                <div class="addmissions_card mt-3 col-12 col-md-6 d-none d-md-block" style="background-color:#9c4100; color:#fff">
+                    <h3>Student Approach</h3>
+                    <h6>We encourage dynamic learning environments, making education an exciting journey.</h6><br>
+                    <button onclick="display('section_approach_detailed_section')" style="color:#fff;border-color:#fff">View More</button>
+                </div>
+                <div class="col-12 col-md-6 mt-3 approach_image1" onclick="display('section_approach_detailed_section')">
+                    <h1 class="approach_heading">Student<br>Approaches</h1>
+                </div>
+                <div class="d-md-none addmission_card_sm" style="color:#000;background-color:#D2691E ">
+                    <p class=" sm_para_card">Click here to know more</p>
+                </div>
+
+            </div>
+            <!-- ATL-LAB_SECTION-->
+            <div class="row d-flex flex-row justify-contnent-start addmissions_total_card">
+                <div class="col-12 col-md-6 mt-3 atal_lab_image1" onclick="display('section_ATAL_lab')">
+                    <h1 class="atal_heading">Atal Tinkering <br>Lab</h1>
+                </div>
+                <div class="d-md-none addmission_card_sm" style="background-color:#FFEBCD">
+                    <p class=" sm_para_card">Click here to know more</p>
+                </div>
+                <div class="addmissions_card mt-3 col-12 col-md-6 d-none d-md-block" style="background-color:#98cae2; border-width:2px; border-color:#000;height:230px">
+                    <h3 style="color:#FBF2DF">Atal Thenketing Lab</h3>
+                    <h6 style="color:#FBF2DF">ATL lab is a dedicated innovation space designed to foster creativity, critical thinking, and hands-on learning among students through science, technology, engineering, and mathematics (STEM) activities.</h6><br>
+                    <button onclick="display('section_ATAL_lab')" style="color:#FBF2DF;border-color:#FBF2DF">View More</button>
+                </div>
+            </div>
+            <!-- sports_SECTION-->
+            <div class="row d-flex flex-row justify-contnent-start addmissions_total_card">
+                <div class="addmissions_card mt-3 col-12 col-md-6 d-none d-md-block" style="background-color: #70b237;height:230px">
+                    <h3>Sports & Activities</h3>
+                    <h6>Experience holistic development with a balance between academics and sports.</h6><br>
+                    <button onclick="display('section_Sports_Activities')">View More</button>
+                </div>
+                <div class="col-12 col-md-6 mt-3 sports_image1" onclick="display('section_Sports_Activities')">
+                    <h1 class="atal_heading" style="margin-top:18%;margin-left:5%">Sports & Activities</h1>
+                </div>
+                <div class="d-md-none addmission_card_sm" style="background-color: #70b237">
+                    <p class=" sm_para_card">Click here to Know More</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- CHAIR-PERSONS_SECTION-->
+        <div class="chairpersons_card">
+            <h1 style="text-align:center">CHAIR-PERSONS</h1>
+            <div class="container">
+                <div class="row shadow mb-4">
+                    <!-- Chairman Section -->
+                    <div class="order-1 col-12 col-md-6" style="text-align:center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxNBkui91tHeQTd4TPJd8Aa7Llxv_sBJQgmA&s" class="chairman_img" />
+                        <h6>SADINENI MURALI<br>MOHAN RAO<br>(Chairman)</h6>
+                        <hr>
+                    </div>
+                    <div class="order-2 col-12 col-md-6 pt-3">
+                        <p>
+                            The Chairman of Basara School is a visionary leader dedicated to transforming education. With a passion for innovation and excellence, they have been instrumental in shaping the institution's mission to provide holistic and high-quality education.<br><br>
+                            A firm believer in the power of education to shape society, the Chairman works tirelessly to ensure that every student is equipped with the skills, knowledge, and character needed to succeed and lead in a rapidly evolving world.
+                        </p>
+                        <p style="text-align:center">***</p>
+                    </div>
+                </div>
+                <div class="row shadow">
+                    <!-- Director Section -->
+                    <div class="order-3 col-12 col-md-6" style="text-align:center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTohITuTFQLfvol3dlPuyePdwUz8XOlEdZOw&s" class="chairman_img" />
+                        <h6>SADINENI RADHA<br>(Director)</h6>
+                        <hr>
+                    </div>
+                    <div class="order-4 col-12 col-md-6 pt-3">
+                        <p>
+                            Under the Director’s guidance, Basara School continues to thrive as a center of excellence, inspiring students to achieve their full potential and equipping them to excel in all aspects of life. The Director’s vision and dedication are integral to the success and growth of the school.<br><br>
+                            The Director plays a pivotal role in driving the operational and academic excellence of the institution. With a dynamic approach to leadership, the Director ensures that every aspect of the school functions seamlessly and creates an enriching learning environment.
+                        </p>
+                        <p style="text-align:center">***</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About,co-curricular,vision,mission section -->
+        <div class="container" id="About">
+            <div class="row justify-content-center">
+                <!-- About Us Section -->
+                <div class="col-12 col-md-5 p-3 vision_card" style="background-color:#FE8500;">
+                    <h6>About Us</h6>
+                    <h4>Welcome to Basara Educations</h4>
+                    <p>Basara Educational Group has achieved tremendous success in the field of education by proactively creating opportunities rather than waiting for them to come along.</p>
+                    <button class="card-button" onclick="display('section_about-us_detailed')">Know More</button>
+                </div>
+
+                <!-- Co-curricular Activities Section -->
+                <div class="col-12 col-md-5 p-3 vision_card" style="background-color:#5a98e1;">
+                    <h4>CO-CURRICULAR ACTIVITIES</h4>
+                    <p>We strongly believe that every child is blessed with talent in one thing or other. Some students may be weak in academics but excel in Co-Curricular activities like dance, singing, and public speaking. We conduct various activities to motivate and build self-confidence.</p>
+                    <button class="card-button" onclick="display('section_co-curricular_detailed')">Know More</button>
+                </div>
+
+                <!-- Vision Section -->
+                <div class="col-12 col-md-5 p-3 vision_card" style="background-color:#F0CC34;">
+                    <h4>VISION</h4>
+                    <p>Our Vision is to provide high-quality holistic education in an inspiring environment that maximizes the potential of each individual. We aim to shape future leaders who are well-equipped to excel in a rapidly evolving world, contributing positively to society with confidence and commitment.</p>
+                    <button class="card-button" onclick="display('section_vision_content')">Read More</button>
+                </div>
+
+                <!-- Mission Section -->
+                <div class="col-12 col-md-5 p-3 vision_card" style="background-color: #16b65c;">
+                    <h4>MISSION</h4>
+                    <p>Our mission is to develop responsible global citizens who are proactive and adaptable professionals through a progressive curriculum, nurturing academic excellence, personal growth, and character development.</p>
+                    <button class="card-button" onclick="display('section_Mision_content')">Read More</button>
+                </div>
+            </div>
+        </div>
+        <!-- Parent choose us_section-->
+        <div class="container mt-4">
+            <div class="parent_choose_section">
+                <h6>Parents Choose Us</h6>
+                <h3>Why Basara?</h3>
+                <hr>
+
+                <!-- Experience -->
+                <div class="info-block">
+                    <h3>20</h3>
+                    <h6>Years of Experiences</h6>
+                    <hr>
+                </div>
+
+                <!-- Teachers -->
+                <div class="info-block">
+                    <h3>100+</h3>
+                    <h6>Qualified Teachers</h6>
+                    <hr>
+                </div>
+
+                <!-- Campuses -->
+                <div class="info-block">
+                    <h3>5</h3>
+                    <h6>Campuses</h6>
+                    <hr>
+                </div>
+
+                <!-- Students -->
+                <div class="info-block">
+                    <h3>1500+</h3>
+                    <h6>Students</h6>
+                    <hr>
+                </div>
+
+                <!-- Awards -->
+                <div class="info-block">
+                    <h3>250+</h3>
+                    <h6>Awards</h6>
+                </div>
+            </div>
+        </div>
+        <!-- section_hostel,celebrations-->
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Hostel Facilities Card -->
+                <div class="hostel_card col-12 col-md-5" id="Hostels">
+                    <div>
+                        <img src="https://www.ghsallahabad.org/wp-content/uploads/2019/05/4-1.jpg" class="hostel_home_section_img" />
+                    </div>
+                    <div class="info-block">
+                        <h3 class="hostel_h3_card ">Hostel Facilities</h3>
+                        <button class="hostel_button" onclick="display('section_hostel')">View More</button>
+                    </div>
+                </div>
+
+                <!-- Celebrations Card -->
+                <div class="hostel_card col-12 col-md-5" style="background-color:#fe68c3" id="Celebrations">
+                    <div>
+                        <img src="https://www.themanthanschool.co.in/newsfeed/wp-content/uploads/2023/09/Independence-Day-Celebration-15th-August-2019-1.jpg" class="hostel_home_section_img" />
+                    </div>
+                    <div class="info-block">
+                        <h3 class="hostel_h3_card">Celebrations</h3>
+                        <button class="hostel_button" onclick="display('section_celebration')">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section_gallary-->
+        <div id="gallary">
+            <h2 class="approach_heading info-block" style="padding-top:5px; padding-bottom:0px; font-size:250%">Gallary
+                <hr style="padding-top:0px;width:150px">
+            </h2>
+            <div class="gallery">
+                <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1734860685/gallary-2_q6nqur.jpg" class="gallery_img" alt="Gallery Image 1" />
+                <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1734860692/gallary-3_m9sieo.jpg" class="gallery_img" alt="Gallery Image 2" />
+                <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1734860674/gallary-1_cy9zm6.jpg" class="gallery_img" alt="Gallery Image 3" />
+            </div>
+        </div>
+        <!-- Addmission_apply_section-->
+        <div class="Addmission_apply_section_card" id="Online">
+            <h3>Admissions Open for the Academic Year - 2023-2024</h3>
+            <h6>Click here to Apply Now.</h6>
+            <button class="card-button" onclick="display('section_online_addmission')">Apply Now</button>
+        </div>
+    </div>
+
+    <!-- Accadamics_curriculum section-->
+    <div id="section_Curricular_activities" class="accadamics_card">
+        <h1 class="curriculum_bg_img curriculum_heading"> Student<br>Curriculum Activities</h1>
+        <div class="container">
+            <div class="row">
+                <div class="row shadow info-block" style="margin-top:20px">
+                    <div class="col-12 col-sm-12 d-md-none " style="text-align:center">
+                        <img src="https://imgs.search.brave.com/CyEw3WtQp-28Eh-m5EqjUG4W5vp6OJtL0ZVCCjuSqBg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGVpc2Nob29scy5j/b20vaHViZnMvMi1w/bmctMi5wbmc" class="holistic_image" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6" style="text-align:center">
+                        <h1 class="Holistic_heading">Holistic Education</h1>
+                        <p class="Holistic_para">Curriculum includes not only core subjects (like math and science) but also arts, physical education, and social-emotional learning.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-xl-5 d-none d-md-block ">
+                        <img src="https://imgs.search.brave.com/CyEw3WtQp-28Eh-m5EqjUG4W5vp6OJtL0ZVCCjuSqBg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGVpc2Nob29scy5j/b20vaHViZnMvMi1w/bmctMi5wbmc" class="holistic_image" style="width:90%" />
+                    </div>
+                </div>
+                <div class="row shadow info-block" style="margin-top:20px">
+                    <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-none d-md-block">
+                        <img src="https://imgs.search.brave.com/-FkPBw3zLDicAzqohvB5rKT2wHYmKoyLzobvzBZQvU8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3BsYXNobGVhcm4u/Y29tL2Jsb2cvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMDYv/Y2xhc3Nyb29tLTEu/anBn" class="holistic_image" style="width:90%" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 d-md-none" style="text-align:center">
+                        <img src="https://imgs.search.brave.com/-FkPBw3zLDicAzqohvB5rKT2wHYmKoyLzobvzBZQvU8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3BsYXNobGVhcm4u/Y29tL2Jsb2cvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMDYv/Y2xhc3Nyb29tLTEu/anBn" class="holistic_image" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 pl-xl-5 pt-xl-3" style="text-align:center">
+                        <h1 class="Holistic_heading">Inquiry-Based Learning</h1>
+                        <p class="Holistic_para">Students are encouraged to ask questions and explore topics in depth, fostering a love for learning.</p>
+                    </div>
+                </div>
+                <div class="row shadow info-block" style="margin-top:20px">
+                    <div class="col-12 col-sm-12 col-md-6 d-md-none" style="text-align:center">
+                        <img src="https://imgs.search.brave.com/4TwCR45C0zGRNYXZ22dl4wobookb7HKflsl8NgVQ_Hs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNjQw/MTI4NTg3L3Bob3Rv/L3NjaG9vbC1jaGls/ZHJlbi1ydW5uaW5n/LWZvci1iYWxsLWlu/LWZpZWxkLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1LeGFY/OUNKdkQ3N0dmc0dz/NFlIZ3hJYnBnd29o/cUVxSkk0UTdnSzk2/ajZJPQ" class="holistic_image" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6" style="text-align:center">
+                        <h1 class="Holistic_heading">Sports and Physical Education</h1>
+                        <p class="Holistic_para">Emphasis on physical health through sports and fitness activities..</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-xl-5 d-none d-md-block">
+                        <img src="https://www.shutterstock.com/image-photo/kids-football-soccer-players-running-260nw-2471428181.jpg" class="holistic_image" style="width:90%" />
+                    </div>
+                </div>
+                <div class="row shadow info-block" style="margin-top:20px">
+                    <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-none d-md-block">
+                        <img src="https://imgs.search.brave.com/sCNWxSfE4PltvUEOqIOuYVtO-fFAvZQFTY7gBytdUDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTQ4/OTM1NzE4L3Bob3Rv/L3Fpbmh1YW5nZGFv/LWNoaW5hLXhpbnlp/LXJvYWQtcHJpbWFy/eS1zY2hvb2wtc3R1/ZGVudHMtc2hvdy10/aGVpci1leHRyYWN1/cnJpY3VsYXItZXhl/cmNpc2VzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1TSjdx/c2ZfR25FLU5QVnFF/TkJWUGEyOUhsRHVX/V0JZLURnLW1OSVpG/SWdBPQ" class="holistic_image" style="width:90%" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 d-md-none" style="text-align:center">
+                        <img src="https://imgs.search.brave.com/sCNWxSfE4PltvUEOqIOuYVtO-fFAvZQFTY7gBytdUDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTQ4/OTM1NzE4L3Bob3Rv/L3Fpbmh1YW5nZGFv/LWNoaW5hLXhpbnlp/LXJvYWQtcHJpbWFy/eS1zY2hvb2wtc3R1/ZGVudHMtc2hvdy10/aGVpci1leHRyYWN1/cnJpY3VsYXItZXhl/cmNpc2VzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1TSjdx/c2ZfR25FLU5QVnFF/TkJWUGEyOUhsRHVX/V0JZLURnLW1OSVpG/SWdBPQ" class="holistic_image" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 pl-xl-5 pt-xl-3" style="text-align:center">
+                        <h1 class="Holistic_heading">Cultural and Extracurricular Activities</h1>
+                        <p class="Holistic_para">Events that promote cultural awareness, such as festivals, cultural days, and clubs..</p>
+                    </div>
+                </div>
+                <div class="row shadow info-block" style="margin-top:20px">
+                    <div class="col-12 col-sm-12 col-md-6 d-md-none" style="text-align:center">
+                        <img src="https://imgs.search.brave.com/IQiL94UIOHM7cDuuVLYBIcubsMoacPExQL1xTB4XsV4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jcmVh/dGl2ZWVkdWNhdG9y/LnRlY2g0bGVhcm5p/bmcuY29tL2Fkcy9p/bWFnZXMvY2UtcGJs/LmpwZw" class="holistic_image" />
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 " style="text-align:center">
+                        <h1 class="Holistic_heading">Assessment and Reflection</h1>
+                        <p class="Holistic_para">Regular assessments that include self-reflection and peer feedback to encourage continuous improvement..</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 d-none d-md-block">
+                        <img src="https://imgs.search.brave.com/IQiL94UIOHM7cDuuVLYBIcubsMoacPExQL1xTB4XsV4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jcmVh/dGl2ZWVkdWNhdG9y/LnRlY2g0bGVhcm5p/bmcuY29tL2Fkcy9p/bWFnZXMvY2UtcGJs/LmpwZw" class="holistic_image" style="width:90%" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Accadamics_faculty section-->
+    <div id="section_faculty">
+        <h1 class="faculty_bg_img curriculum_heading" style="font-size:60px">Faculty</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="faculty_smart_heading info-block mb-3 ">A Smart Way to Learn</h1>
+                    <div class="d-flex flex-row justify-content-start shadow faculty-card" style="text-align:center">
+                        <img src="https://imgs.search.brave.com/r0q3NzckRSr9fE--2-x0pyAaC8gPJz52uSVnc5rkeI4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzIyLzc5Lzg0/LzM2MF9GXzkyMjc5/ODQ2OV85bjg3SXRN/YzU2OFEzVXdYMVJ2/enh5cGtIMmx2c1dz/cS5qcGc" class="faculty_img" alt="Faculty Image" />
+                        <h6 class="faculty_h6">Basara is home to an exceptionally skilled and dedicated teaching faculty. Their commitment lies in nurturing the unique potential of each student within a stimulating and supportive academic atmosphere, ensuring a rich and challenging educational experience.</h6>
+                    </div>
+                    <div class="faculty_description">
+                        <div class="shadow">
+                            <h1 class="faculty_smart_heading info-block">Faculty at Basa School: Nurturing Future Leaders</h1>
+                            <p class="faculty_para">At Basa School, our faculty is not just a group of educators but a team of mentors, guides, and facilitators. Each teacher plays a crucial role in shaping the intellectual and emotional growth of our students, building a strong foundation for their future success.</p>
+                            <p class=" faculty_para ">The educators at Basara implement a distinctive and high-caliber academic curriculum designed to construct knowledge, skills, and understanding by seamlessly integrating new experiences with students' existing learning frameworks. Drawing on their extensive teaching expertise, the faculty utilizes cutting-edge technology available on campus to facilitate an engaging, effective, and enjoyable learning environment. Students at all levels are immersed in a diverse array of challenging outdoor activities aimed at fostering character development, resilience, and personal integrity. At every stage, teachers proactively address student anxieties, inspiring them to excel in both academic and extracurricular pursuits.</p>
+                        </div>
+                        <div class="shadow" style="margin-top:20px">
+                            <h3 class="faculty_smart_heading info-block">Personalized Attention to Each Student</h3>
+                            <p class=" faculty_para ">At Basa, we recognize that each student is unique and has their own learning style. Our teachers make it a point to get to know their students on a personal level, identifying their strengths, challenges, and interests. This allows our faculty to provide personalized guidance and support, ensuring that every student feels seen, heard, and valued.</p>
+                            <p class=" faculty_para ">Whether it’s providing extra help after school, offering career advice, or simply taking the time to have a one-on-one conversation, our faculty members are deeply committed to the success of each student. They don’t just teach; they mentor, guide, and nurture students’ potential.</p>
+                        </div>
+                        <div class="shadow" style="margin-top:20px">
+                            <h3 class="faculty_smart_heading info-block">Commitment to Continuous Growth</h3>
+                            <p class=" faculty_para ">Our faculty at Basa believes in continuous improvement—not just for our students, but for themselves as well. Teachers regularly participate in professional development programs, workshops, and conferences to stay current with educational trends and enhance their teaching strategies. This commitment to growth and excellence ensures that our students receive the highest quality education, delivered by passionate and knowledgeable educators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!--Main_branch_detailed_section-->
+    <div id="section_main_branch_detailed">
+        <div class="header">
+            <h1>Welcome to the</h1>
+            <p>Chaitanyapuri Branch</p>
+        </div>
+        <div class="content">
+            <h2>Basara Concept School <span style="font-size:30px"><br>Days Campus</span></h2>
+            <p>At Basara Concept School, our Days Scholars Branch focuses on providing a nurturing environment for young minds to thrive. With excellent infrastructure, experienced teachers, and a curriculum designed for holistic development, we aim to inspire every student to achieve their best.</p>
+        </div>
+        <div class="images-section" style="text-align:center">
+            <div class="shadow">
+                <img src="https://via.placeholder.com/300x200.png?text=School+Building" alt="School Building">
+                <p>School Building</p>
+            </div>
+            <div class="shadow">
+                <img src="https://images.picxy.com/cache/2019/12/12/d8c2863f667efe8af059d56186fed901.jpg" alt="Classroom Setup">
+                <p>Class Rooms</p>
+            </div>
+            <div class="shadow">
+                <img src="https://nirmalahighschool.com/wp-content/uploads/2020/09/71-Computer-Lab-1-e1519106826588.jpg" alt="Library">
+                <p>Computer Lab</p>
+            </div>
+            <div class="shadow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ZT71tWAaHHaoshQPLtADnS3N7nb5OIrB1g&s" alt="Playground">
+                <p>Play Ground</p>
+            </div>
+            <div class="shadow">
+                <img src="https://imgs.search.brave.com/IJTUBpO5AO_Necy6Tapl9KT9IRSFjdwIJCuYf8GUrsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTk2/MDcyMTg5MC9waG90/by9jaGlsZC1zdHVk/ZW50cy1ydW5uaW5n/LW91dHNpZGUtdGhl/LXNjaG9vbC53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VjZDQk9s/SmlPQUFKdWtfM2V0/b1NVaG4yWm9pT2Z2/ZEpUdUN4M3pWaWxk/MD0" alt="Library">
+                <p>Transport Facilities</p>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!--Nallapadu_branch_detailed_section-->
+    <div id="section_Nallapadu_branch_detailed">
+        <header class="header">
+            <h1>Welcome to the</h1>
+            <h2>Nallapadu Branch</h2>
+        </header>
+        <div class="carousel slide mb-2" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvP0e4E5jsY_VGzytHWPrzj1zpER2q21gnw&s" class="d-block w-100 " style="height:45vh" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/YH6wcSiAjxcmyILTJngwJbLFJjlv6Y37tZiGQ_mXlvQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTIx/NzQyNTUwL3Bob3Rv/L21lbi1wbGF5aW5n/LWthYmJhZGktaW4t/dmlsbGFnZS1yYWph/c3RoYW4taW5kaWEu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWk0T3hicTYxSVYz/VXc5NXNaZEk4dnVY/TERzOVN5emJ4RjRq/dHQwMXBueWs9" class="d-block w-100" style="height:45vh" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="data:image/jpeg;base64,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" class="d-block w-100" style="height:45vh" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" style="border-right-color:transparent" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" style="border-left-color:transparent" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <div class="content">
+            <h1>Basara Concept School<span style="font-size:35px"><br>Day & Residential</span></h1>
+            <p>At Basara Concept School, Nallapadu Branch, we offer a unique combination of Day and Residential facilities, ensuring every student thrives in a nurturing and supportive environment.</p>
+            <p>Our goal is to provide students with world-class education, life skills, and all-round development through our state-of-the-art infrastructure and dedicated staff.</p>
+        </div>
+        <div class="images-section" style="text-align:center">
+            <div class="shadow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ksRawJNjC4kgUXNNmeEACB4RRzR4TfNfGxE82E6pTOnSWDtmbG1MwdLPaCzdFIKKgZM&usqp=CAU" alt="Classroom">
+                <p>Class Rooms</p>
+            </div>
+            <div class="shadow">
+                <img src="https://shrijitechnoaspire.in/upload/other/wia.png" alt="ATL Lab">
+                <p>ATL Lab</p>
+            </div>
+            <div class="shadow">
+                <img src="https://jankidevipublicschooldausa.in/wp-content/uploads/2021/04/jpsdausa13.jpg" alt="ATL Lab">
+                <p>Computer Lab</p>
+            </div>
+            <div class="shadow">
+                <img src="https://www.financialexpress.com/wp-content/uploads/2017/12/Delhi-schools-.jpg" alt="Playground">
+                <p>Play Ground</p>
+            </div>
+            <div class="shadow">
+                <img src="https://www.ghsallahabad.org/wp-content/uploads/2019/05/4-1.jpg" alt="Residential Facilities">
+                <p>Hostels</p>
+            </div>
+            <div class="shadow">
+                <img src="https://imgs.search.brave.com/IJTUBpO5AO_Necy6Tapl9KT9IRSFjdwIJCuYf8GUrsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTk2/MDcyMTg5MC9waG90/by9jaGlsZC1zdHVk/ZW50cy1ydW5uaW5n/LW91dHNpZGUtdGhl/LXNjaG9vbC53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VjZDQk9s/SmlPQUFKdWtfM2V0/b1NVaG4yWm9pT2Z2/ZEpUdUN4M3pWaWxk/MD0" alt="Extracurricular Activities">
+                <p>Transport Fecilities</p>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!--Vatticheruku_branch_detailed_section-->
+    <div id="section_Vatticheruku_branch_detailed">
+        <div class="header">
+            <h1>Welcome to the </h1>
+            <p>Vatticherukuru Branch</p>
+        </div>
+        <div class="content">
+            <h2>Basara Concept School - <span style="font-size:30px">Vatticherukuru</span><br> Day Scholars Campus</h2>
+            <p>At Basara Concept School, our Days Scholars Branch focuses on providing a nurturing environment for young minds to thrive. With excellent infrastructure, experienced teachers, and a curriculum designed for holistic development, we aim to inspire every student to achieve their best.</p>
+        </div>
+        <div class="images-section" style="text-align:center">
+            <div class="shadow">
+                <img src="https://via.placeholder.com/300x200.png?text=School+Building" alt="School Building">
+                <p>School Building</p>
+            </div>
+            <div class="shadow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4WHX9Vr4t41kROd7WQMiYyExyjvDiFSanGw&s" alt="Classroom Setup">
+                <p>Class Rooms</p>
+            </div>
+            <div class="shadow">
+                <img src="https://cathedral-school.com/wp-content/themes/wp-macchiato/images/Computer%20Lab.jpg" alt="Com lab">
+                <p>Computer Lab</p>
+            </div>
+            <div class="shadow">
+                <img src="https://images.yourstory.com/cs/5/80396100-2d6d-11e9-aa97-9329348d4c3e/21551115443458.jpg?mode=crop&crop=faces&ar=2%3A1&format=auto&w=1920&q=75" alt="Playground">
+                <p>Play ground</p>
+            </div>
+            <div class="shadow">
+                <img src="https://imgs.search.brave.com/IJTUBpO5AO_Necy6Tapl9KT9IRSFjdwIJCuYf8GUrsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTk2/MDcyMTg5MC9waG90/by9jaGlsZC1zdHVk/ZW50cy1ydW5uaW5n/LW91dHNpZGUtdGhl/LXNjaG9vbC53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VjZDQk9s/SmlPQUFKdWtfM2V0/b1NVaG4yWm9pT2Z2/ZEpUdUN4M3pWaWxk/MD0" alt="Library">
+                <p>Transport Feciliites</p>
+            </div>
+        </div>
+
+        <div class="">
+            <p>&copy; 2024 Basara Concept School - Days Scholars Branch</p>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!--Nehrunagar_branch_detailed_section-->
+    <div id="section_Nehrunagar_branch_detailed">
+        <div class="header">
+            <h1>Welcome to the </h1>
+            <p>Nehrunagar Branch</p>
+        </div>
+
+        <div class="content">
+            <h2>Basara Concept School<span style="font-size:30px"><br>Nehrunagar - </span> Day Campus</h2>
+            <p>At Basara Concept School, our Days Scholars Branch focuses on providing a nurturing environment for young minds to thrive. With excellent infrastructure, experienced teachers, and a curriculum designed for holistic development, we aim to inspire every student to achieve their best.</p>
+        </div>
+        <div class="images-section" style="text-align:center">
+            <div class="shadow">
+                <img src="https://via.placeholder.com/300x200.png?text=School+Building" alt="School Building">
+                <p>School Building</p>
+            </div>
+            <div class="shadow">
+                <img src="https://www.livelaw.in/h-upload/2020/07/05/750x450_377748-school.jpg" alt="Classroom Setup">
+                <p>Class Rooms</p>
+            </div>
+            <div class="shadow">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/1/QC/YU/AX/82368182/computer-lab-jb-028-500x500.jpg" alt="Library">
+                <p>Computer Labs</p>
+            </div>
+            <div class="shadow">
+                <img src="https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTkzOWExODEwLTRlN2UtMTFlZi04MGUwLTg5MTBmNjk1YjZkZS5qcGc=" alt="Playground">
+                <p>Play Ground</p>
+            </div>
+            <div class="shadow">
+                <img src="https://imgs.search.brave.com/IJTUBpO5AO_Necy6Tapl9KT9IRSFjdwIJCuYf8GUrsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTk2/MDcyMTg5MC9waG90/by9jaGlsZC1zdHVk/ZW50cy1ydW5uaW5n/LW91dHNpZGUtdGhl/LXNjaG9vbC53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VjZDQk9s/SmlPQUFKdWtfM2V0/b1NVaG4yWm9pT2Z2/ZEpUdUN4M3pWaWxk/MD0" alt="Library">
+                <p>Transport Fecilities</p>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!--perecherla_branch_detailed_section-->
+    <div id="section_perecherla_branch_detailed">
+        <div class="header">
+            <h1>Welcome to the</h1>
+            <p>Perecherla Branch</p>
+        </div>
+        <div class="content">
+            <h2>Basara Concept School <span style="font-size:30px"><br>Perecherla</span> - Days Campus</h2>
+            <p>At Basara Concept School, our Days Scholars Branch focuses on providing a nurturing environment for young minds to thrive. With excellent infrastructure, experienced teachers, and a curriculum designed for holistic development, we aim to inspire every student to achieve their best.</p>
+        </div>
+        <div class="images-section" style="text-align:center">
+            <div class="shadow">
+                <img src="https://via.placeholder.com/300x200.png?text=School+Building" alt="School Building">
+                <p>School Building</p>
+            </div>
+            <div class="shadow">
+                <img src="https://bansalpublicschool.com/imgupload/pages/1671597378034A8162.jpg" alt="Classroom Setup">
+                <p>Class Rooms</p>
+            </div>
+            <div class="shadow">
+                <img src="https://5.imimg.com/data5/DJ/PV/GLADMIN-64970456/computer-lab-class.png" alt="com lab">
+                <p>Computer Lab</p>
+            </div>
+            <div class="shadow">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ioQsDY7AmYs6ZJlfNAfsTLwwNPuHnrOxCw&s" alt="Playground">
+                <p>Play Ground</p>
+            </div>
+            <div class="shadow">
+                <img src="https://imgs.search.brave.com/IJTUBpO5AO_Necy6Tapl9KT9IRSFjdwIJCuYf8GUrsY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTk2/MDcyMTg5MC9waG90/by9jaGlsZC1zdHVk/ZW50cy1ydW5uaW5n/LW91dHNpZGUtdGhl/LXNjaG9vbC53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9VjZDQk9s/SmlPQUFKdWtfM2V0/b1NVaG4yWm9pT2Z2/ZEpUdUN4M3pWaWxk/MD0" alt="Library">
+                <p>Transport Fecilities</p>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Contact-us section -->
+    <div id="section_contact">
+        <h1>CONTACT US</h1>
+        <div class="d-lg-none">
+            <!--Main_branch_contact_section-->
+            <div class="contact_detailed_card2">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Main Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara1@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">Chaitanyapuri 3rd line ,<br>Saibaba Road ,<br>Guntur .</p>
+            </div>
+            <!--Nallapadu_branch_contact_section-->
+            <div class="contact_detailed_card2">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Nallapadu (Hostel) Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara2@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">Kendreya Vidyalam Opp.road ,<br>Nallapadu ,<br>Guntur .</p>
+            </div>
+            <!--Perecherla_branch_contact_section-->
+            <div class="contact_detailed_card2">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Perecherla Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara3@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">palakaluru road,<br>Perecherla ,<br>Guntur .</p>
+            </div>
+            <!--Vatticherukuru_branch_contact_section-->
+            <div class="contact_detailed_card2">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Vatticherukuru Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara4@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">Vatticherukuru ,<br>Guntur .</p>
+            </div>
+            <!--Nehrunagar_branch_contact_section-->
+            <div class="contact_detailed_card2 mb-5">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Nehrunagar Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara1@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">Nehrunagar 4th line ,<br>Guntur .</p>
+            </div>
+        </div>
+        <div class="d-none d-lg-block">
+            <div class="d-flex flex-row justify-content-around">
+                <!--Main_branch_section-->
+                <div class="contact_detailed_card">
+                    <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Main Branch</h2>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">basara1@gmail.com</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">Chaitanyapuri 3rd line ,<br>Saibaba Road ,<br>Guntur .</p>
+                </div>
+                <!--Nallapadu_branch_section-->
+                <div class="contact_detailed_card">
+                    <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Nallapadu (Hostel) Branch</h2>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">basara2@gmail.com</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">Kendreya Vidyalam Opp.road ,<br>Nallapadu ,<br>Guntur .</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-around">
+                <!--Perecherla_branch_section-->
+                <div class="contact_detailed_card">
+                    <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Perecherla Branch</h2>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">basara3@gmail.com</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">palakaluru road,<br>Perecherla ,<br>Guntur .</p>
+                </div>
+                <!--Vatticherukuru_branch_section-->
+                <div class="contact_detailed_card">
+                    <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Vatticherukuru Branch</h2>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">basara4@gmail.com</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                        <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                    </div>
+                    <p class="ml-3" style="font-size:20px;">Vatticherukuru ,<br>Guntur .</p>
+                </div>
+            </div>
+            <!--Nehrunagar_branch_section-->
+            <div class="contact_detailed_card2 ml-5 mt-3 mr-5 mb-5">
+                <h2 style="color:green;font-size:30px;font-weight:700;text-decoration:underline">Nehrunagar Branch</h2>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Call Us</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">xxxxxxxxxx , xxxxxxxxxx</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">E-Mail</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">basara1@gmail.com</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill ml-3" viewBox="0 0 16 16" style="color:green">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                    <p class="ml-2" style="color:green;font-size:20px;font-weight:bold">Location</p>
+                </div>
+                <p class="ml-3" style="font-size:20px;">Nehrunagar 4th line ,<br>Guntur .</p>
+            </div>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button " style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="resultsModal" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resultsModalLabel">SSC 2024 RESULTS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="width:500;">X</button>
+                </div>
+                <div class="modal-body">
+                    This section displays the results.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- addmission_detailed_section-->
+    <div id="section_addmission_detailed_section">
+        <div class="addmission_detailed_sec_bg_img"></div>
+        <div class="ml-3">
+            <h2 class="addmission_detailed_h2">Registration Process:</h2>
+            <p class="addmission_detailed_para">Admission is granted to classes LKG to standard X. Application form and prospectus may be obtained from the school office.</p>
+            <h3 class="addmission_detailed_h2">Documents Required:</h3>
+            <ol class="addmission_detailed_para">
+                <li>Student Aadhar Xerox</li>
+                <li>Transfer certificate</li>
+                <li>Study certificate of previous school</li>
+                <li>3 passport size photoes of student</li>
+                <li>xerox of student progress Report</li>
+            </ol>
+            <p class="addmission_detailed_para">The selection and admission will be made by the principal after scrutinizing the application and assessing the student's performance in the previous class.</p>
+            <h3 class="addmission_detailed_h2">School Visit:</h3>
+            <p class="addmission_detailed_para">You are most welcome to visit the school and have an informal discussion with or without your child. This can be done by fixing a prior appointment with the Concerned Person.</p>
+            <h3 class="addmission_detailed_h2">Admissions during the year:</h3>
+            <p class="addmission_detailed_para">Parents may register at any time during the year for admission in the current year and will be interviewed whenever a place is available.</p>
+            <h3 class="addmission_detailed_h2">Admission:</h3>
+            <p class="addmission_detailed_para">On being offered a place parents will be given two weeks time to pay the admission fee and security deposit to secure the place. Parents further need to fill and submit various forms and declarations
+                that would be given along with admissions acceptance letter. Before allowing the student to take up his/her place a transfer certificate should be lodged with the admissions office from the earlier school of the student.</p>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- approaches_detailed_section-->
+    <div id="section_approach_detailed_section">
+        <div class="approach_detailed_sec_bg_img">
+            <h1 class="approach_detailed_heading">Educational Approach</h1>
+        </div>
+        <div>
+            <img src="https://imgs.search.brave.com/alG4L-gjVxEHVPMyYLqXu7UZ2c6hymTCR2jtJkq1His/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by90ZWFjaGVyLXN0/YW5kcy1mcm9udC1j/aGFsa2JvYXJkLXdp/dGgtc3R1ZGVudHMt/ZnJvbnQtaGltXzEz/MDkxNzMtMTIyOTA2/LmpwZz9zZW10PWFp/c19oeWJyaWQ" class="approach_stu_teacher_img d-flex flex-row justify-content-center" />
+        </div>
+        <div class="ml-3">
+            <h2 class="approach_detailed_h2">Educational Approach</h2>
+            <div class="approach_detailed_para">
+                <p> Basara Concept School helps to believe that effective learning extends beyond the traditional classroom setting. Our Study Hour System is designed to provide students with dedicated time to reinforce their understanding of subjects and enhance their academic skills. During these structured study hours, students have the opportunity to engage in focused learning, review material, and collaborate with peers under the guidance of experienced educators.</p>
+                <p>The Study Hour System fosters a supportive environment where students can ask questions and seek clarification on challenging topics. Our teachers are available to provide personalized assistance, ensuring that each student receives the help they need to succeed. This approach not only boosts academic performance but also builds students' confidence in their abilities, encouraging a lifelong love for learning.</p>
+                <p>In addition to individual study time, Basara Concept School promotes collaborative learning during study hours. Students are encouraged to work together, share insights, and develop teamwork skills. This social aspect of studying helps to create a strong sense of community within the school, making learning more enjoyable and engaging.</p>
+                <p>Ultimately, our Study Hour System at Basara Concept School is an integral part of our commitment to academic excellence. By providing structured time for focused study, we empower our students to take charge of their education, cultivate critical thinking skills, and prepare for future academic challenges. We are proud to support our students on their educational journeys, fostering a culture of curiosity and achievement.</p>
+            </div>
+
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- ATEL LAB-->
+    <div id="section_ATAL_lab">
+        <div class="atal_lab_detailed_sec_bg_img">
+            <h1 class="atal_lab_detailed_heading">ATAL THINKERING <BR>LAB</h1>
+        </div>
+        <div class="ml-3">
+            <h2 class="approach_detailed_h2">Atal Tinkering Lab (ATL) - A Hub for Innovation and Learning:</h2>
+            <p class="approach_detailed_para">The Atal Tinkering Lab (ATL) at Basara is a state-of-the-art facility designed to nurture creativity, critical thinking, and hands-on learning among students. Supported by the Government of India's Atal Innovation Mission, ATL is part of a nationwide initiative to foster a culture of innovation and problem-solving skills in young minds.</p>
+            <h3 class="approach_detailed_h2">What is an Atal Tinkering Lab?</h3>
+            <p class="approach_detailed_para">An Atal Tinkering Lab is a dedicated innovation workspace where students can work with tools and equipment that encourage them to build projects across domains like science, technology, engineering, arts, and mathematics (STEAM). Through ATL, students have access to resources such as 3D printers, robotics kits, electronics, and other modern tools that bring their innovative ideas to life.</p>
+            <div>
+                <h3 class="approach_detailed_h2">Key Features and Offerings at ATL Basara</h3>
+                <div>
+                    <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1729936489/atal_key_features_nhptjv.webp" class="atal_key_features_img" />
+                </div>
+                <div class="approach_detailed_para">
+                    <ul>
+                        <li>Hands-On Learning: With guidance from mentors, students get to work on real-world projects and apply theoretical knowledge through practical experiments.</li>
+                        <li>Robotics & Electronics: Students explore fields like robotics and electronics, sparking interest in various tech-oriented fields and equipping them with future-ready skills.</li>
+                        <li>3D Printing & Prototyping: Access to 3D printing encourages students to visualize and create prototypes, allowing for a deeper understanding of design and innovation.</li>
+                        <li>Coding & Software Development: The lab includes resources for learning programming and developing software, giving students a taste of coding and app development from an early age.</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3 class="approach_detailed_h2">Objectives of the ATL at Basara</h3>
+                <div>
+                    <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1729936583/atal_objective_yalrxf.webp" class="atal_key_features_img" />
+                </div>
+                <div class="approach_detailed_para">
+                    <ol>
+                        <li>Cultivating Innovation: To foster creativity and inspire young learners to become thinkers, innovators, and creators.</li>
+                        <li>Developing Problem-Solving Skills: Encouraging students to approach real-life problems with innovative solutions.</li>
+                        <li>Promoting Collaboration: ATL provides a collaborative environment where students can work in teams, sharing ideas, and learning from each other.</li>
+                        <li>Building Future-Ready Skills: By engaging with technology early on, students develop critical skills that are increasingly important in today’s tech-driven world.</li>
+                    </ol>
+                </div>
+
+            </div>
+
+            <h3 class="approach_detailed_h2">Why ATL Matters for Our Students</h3>
+            <p class="approach_detailed_para">The ATL at Basara Concept School empowers students by providing a platform where they can experiment, fail, learn, and succeed. It encourages them to ask questions, think critically, and explore concepts outside of traditional textbooks. The lab aligns with our mission to provide a well-rounded education and helps prepare students for a rapidly evolving global landscape.</p>
+            <h4 class="approach_detailed_h2">Join the Innovation Journey!</h4>
+            <p>We invite our students to explore the endless possibilities at the Atal Tinkering Lab and become the thinkers and leaders of tomorrow. With ATL, Basara is proud to contribute to a future where innovation, creativity, and hands-on learning lead the way!</p>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Sports & Activities-->
+    <div id="section_Sports_Activities">
+        <img src="https://res.cloudinary.com/dgwlzccwg/image/upload/v1732350824/sports_activities_vg66j5.jpg" class="basara_img" />
+        <h1 class="sports_heading" style="text-align:center; color:#000; font-size:40px">Sports & Activities</h1><br>
+        <div class="carousel slide mb-2" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvP0e4E5jsY_VGzytHWPrzj1zpER2q21gnw&s" class="d-block w-100 " style="height:45vh" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/YH6wcSiAjxcmyILTJngwJbLFJjlv6Y37tZiGQ_mXlvQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTIx/NzQyNTUwL3Bob3Rv/L21lbi1wbGF5aW5n/LWthYmJhZGktaW4t/dmlsbGFnZS1yYWph/c3RoYW4taW5kaWEu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWk0T3hicTYxSVYz/VXc5NXNaZEk4dnVY/TERzOVN5emJ4RjRq/dHQwMXBueWs9" class="d-block w-100" style="height:45vh" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="data:image/jpeg;base64,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" class="d-block w-100" style="height:45vh" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" style="border-right-color:transparent" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" style="border-left-color:transparent" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <p class="sports_para">At Basara Concept School, with all branches <span style="color:#319938; font-size:22px"> Guntur, Nallapadu, Vatticherukuru, Perecherla, and Nehrunagar </span>conducting sports and physical activities in our annual sports event is a vibrant celebration of talent, teamwork, and sportsmanship, bringing together students from all our branches to participate in a variety of sports and games.</p>
+        <p class="sports_para">This event not only promotes physical fitness but also instills essential values like discipline, perseverance, and fair play. At Basara, we ensure that every child experiences the joy of competition and the camaraderie of teamwork, making sports an integral part of their educational journey across all our campuses.</p>
+        <p class="sports_para">By incorporating sports and activities, schools create a balanced environment that promotes well-rounded growth, instilling values and skills that prepare students for future challenges in both personal and professional spheres.</p>
+        <p class="sports_para">Sports are not just about winning trophies,<span>" they are about shaping disciplined minds and healthy bodies.</span></p>
+        <h3 class="sports_heading" style="text-align:center; color:#000; font-size:40px">Alubm</h3>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- About-us_detailed_section -->
+    <div id="section_about-us_detailed" class="vision_content_card">
+        <h2 class="approach_heading shadow" style="padding-top:5px; padding-bottom:0px ;font-size:250%">About Us
+            <hr style="padding-top:0px;width:150px">
+        </h2>
+        <h2 class="approach_detailed_h2">Unlocking Success Through Holistic Education</h2>
+        <p>At Basara, our vision is to empower students by creating opportunities rather than waiting for them. This forward-thinking approach has made us a leader in education,
+            consistently guiding students toward excellence. Over the years, Basara has gained a reputation for nurturing young minds and equipping them with the skills needed to succeed in an ever-changing world.
+        </p>
+        <p>By offering diverse educational pathways, Basara addresses the varied aspirations of students. With over two decades of commitment, we have shaped thousands of students into accomplished professionals and responsible citizens.
+            Thanks to the trust and confidence of parents and students, Basara has steadily expanded, growing into a beacon of educational excellence.
+        </p>
+        <h2 class="approach_detailed_h2">Building Thinkers, Shaping Leaders</h2>
+        <p>At Basara Concept School, we go beyond traditional education. Our innovative Integrated Foundation Programmes, designed for students from Grades VI to X, are tailored to prepare young minds for success in prestigious institutions such as IITs.
+            With a focus on innovative teaching methodologies and robust curriculum design, Basara equips students to face competitive examinations confidently and emerge as future leaders.
+        </p>
+        <h2 class="approach_detailed_h2">Growing with Purpose, Delivering Excellence</h2>
+        <p>In response to the evolving needs of parents and students, Basara Concept School has established both day and residential campuses. Regardless of the location, every Basara campus upholds the same high standards, offering a consistent, high-quality learning experience.</p>
+        <p>Basara prides itself on being a pioneer in modern educational practices, with world-class residential facilities that reflect our commitment to holistic student development. Separate campuses for boys and girls in Guntur, Hyderabad, Vizag, and Tirupati provide a secure and nurturing environment.</p>
+        <p>These campuses are designed to inspire. With serene landscapes, state-of-the-art infrastructure, and aesthetically pleasing architecture, students can enjoy their childhood while engaging in meaningful learning experiences. Basara’s tranquil and thoughtfully planned spaces foster creativity, critical thinking, and personal growth, creating global citizens ready to take on the future.</p>
+        <h5>Join Basara Concept School—where "<span>Education meets excellence, and Every child’s potential is unlocked.</span>"</h5>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Co-Curricular_activities_detailed_section-->
+    <div id="section_co-curricular_detailed" class="container">
+        <div>
+            <h2 class="approach_heading" style="font-size:220%">Co-Curricular Activities</h2>
+            <hr class="mx-auto" style="width: 300px;">
+
+            <!-- Art and Cultural Section -->
+            <div class="row shadow mb-4 align-items-center">
+                <div class="col-12 col-md-5 mb-2 mb-md-0" style="text-align:center">
+                    <img src="https://assets.onyamagazine.com/wp-content/uploads/2020/01/28205713/Screen-Shot-2020-01-28-at-5.01.32-pm-1024x649.png" class="art_culture_img1" alt="Art and Culture">
+                </div>
+                <div class="col-12 col-md-7">
+                    <h3>Art and Cultural</h3>
+                    <p>
+                        Our country is known for its unity in diversity. Our students get the opportunity to showcase their talent in Visual arts and Performing arts.
+                        The greatest minds and thinkers like Albert Einstein, Mozart, and Frank Lloyd Wright all had something in common—they were constantly exploring their imagination and creativity.
+                        We conduct a variety of programs like festivals, competitions, shows, etc.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Drawing, Painting, Art, and Craft Section -->
+            <div class="row shadow mb-4 align-items-center">
+                <div class="col-12 col-md-5 mb-2 mb-md-0" style="text-align:center">
+                    <img src="https://www.ecoleglobale.com/wp-content/uploads/2019/10/ecole-globale-art-culture-4.jpg" class="art_culture_img1" alt="Art and Craft">
+                </div>
+                <div class="col-12 col-md-7">
+                    <h3>Drawing, Painting, Art, and Craft</h3>
+                    <p>
+                        We have drawing teachers who regularly teach drawing, painting, and arts and crafts. Competitions are held on important occasions like Children's Day.
+                        Our best students participate in various external competitions to showcase their talents.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Festivals Section -->
+            <div class="row shadow mb-4 align-items-center">
+                <div class="col-12 col-md-5 mb-2 mb-md-0" style="text-align:center">
+                    <img src="https://m.economictimes.com/thumb/msid-102714384,width-1200,height-1200,resizemode-4,imgsize-327412/chennai-aug-11-ani-students-of-jaigopal-garodia-school-hold-national-flag-fo-.jpg" class="art_culture_img1" alt="Festivals">
+                </div>
+                <div class="col-12 col-md-7">
+                    <h3>Festivals</h3>
+                    <p>
+                        We celebrate all festivals like Independence Day, Teachers' Day, Children's Day, and Sankranthi in a grand manner.
+                        Each event is organized by the house master, deputy house master, teachers, and students working together.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Annual Day Section -->
+            <div class="row shadow mb-4 align-items-center">
+                <div class="col-12 col-md-5 mb-2 mb-md-0" style="text-align:center">
+                    <img src="https://infinitylearn.com/surge/wp-content/uploads/2022/01/Annual-Day-speech-for-Students-copy-1.jpg" class="art_culture_img1" alt="Annual Day">
+                </div>
+                <div class="col-12 col-md-7">
+                    <h3>Annual Day</h3>
+                    <p>
+                        At the end of the year, we celebrate Family Day, bringing teachers, students, and parents together.
+                        The school report is presented, and inspiring speeches are delivered. Students are awarded prizes for academic excellence, and the best house receives a trophy and shield.
+                        Entertainment follows with student performances on various themes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary m-3 card-back-button" style="width: 90px;" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- vision_content_section -->
+    <div id="section_vision_content" class="vision_content_card">
+        <h2 class="approach_heading shadow" style="padding-top:5px; padding-bottom:0px ;font-size:250%">OUR VISION
+            <hr style="padding-top:0px;width:200px">
+        </h2>
+        <p>At Basara Concept School, our vision is to foster a nurturing and innovative learning environment where every student is empowered to reach their full potential. We are committed to:</p>
+        <ol>
+            <li>Academic Excellence: Providing a rigorous and comprehensive curriculum that challenges students to excel academically and develop critical thinking skills.</li>
+            <li>Holistic Development: Encouraging the growth of well-rounded individuals by promoting physical, emotional, and social well-being through diverse extracurricular activities and sports.</li>
+            <li>Innovative Learning: Embracing modern teaching methodologies and technology to create engaging and interactive learning experiences that prepare students for the future.</li>
+            <li>Inclusive Community: Cultivating a supportive and inclusive school culture that respects diversity and fosters a sense of belonging for all students, staff, and families.</li>
+            <li>Global Citizenship: Instilling values of responsibility, empathy, and environmental stewardship, empowering students to become proactive and compassionate global citizens.</li>
+        </ol>
+        <p>At Basara Concept School, we believe in the power of education to transform lives and communities. Our dedicated team of educators is committed to guiding and inspiring students to achieve their dreams and make a positive impact on the world.</p>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- Mision_content_section -->
+    <div id="section_Mision_content" class="vision_content_card">
+        <h2 class="approach_heading shadow" style="padding-top:5px; padding-bottom:0px ;font-size:250%">OUR MISSION
+            <hr style="padding-top:0px;width:250px">
+        </h2>
+        <p>At Basara Concept School, our mission is to provide a transformative educational experience that nurtures the intellectual, emotional, and social growth of every student. We are dedicated to:</p>
+        <ol>
+            <li>Academic Excellence: Delivering a challenging and dynamic curriculum that fosters critical thinking, creativity, and a lifelong love of learning.</li>
+            <li>Holistic Development: Promoting the overall well-being of our students through a balanced approach that includes academics, arts, sports, and extracurricular activities.</li>
+            <li>Innovative Teaching: Utilizing cutting-edge teaching methodologies and technology to create engaging and effective learning environments.</li>
+            <li>Inclusive Environment: Building a diverse and inclusive community where every student feels valued, respected, and supported.</li>
+            <li>Character Building: Instilling strong moral values, integrity, and a sense of responsibility in our students to prepare them for the challenges of the future.</li>
+            <li>Community Engagement: Encouraging active participation and collaboration with families and the wider community to enrich the educational experience and foster a sense of belonging.</li>
+        </ol>
+        <p>At Basara Concept School, we are committed to empowering our students to achieve their full potential and become compassionate, responsible, and innovative leaders of tomorrow.</p>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- hostel_fecilities_detailed_section-->
+    <div id="section_hostel">
+        <h2 class="approach_heading" style="padding-top:0px">Hostel<br> Facilities</h2>
+        <hr>
+        <h2 class="approach_detailed_h2" style="text-align:center">Our Facilities at Basara Concept School</h2>
+        <p class="hostel_detailed_para">Basara Concept School is renowned for its commitment to academic excellence and holistic development. To ensure students have a comfortable and conducive living environment, the school offers exceptional hostel facilities designed to provide a home-like experience.</p>
+        <h5 class="approach_detailed_h2" style="font-size:25px">Below are the key features of the hostel facilities:</h5>
+        <ol class="hostel_detailed_para ">
+            <li class="ml-3" style="font-size:22px"> Accommodation</li>
+            <ul>
+                <li>Separate hostel blocks for boys and girls, ensuring safety and privacy.</li>
+                <li>Spacious, well-ventilated dormitories with modern amenities.</li>
+                <li>Comfortable bunk beds or single beds with storage facilities.</li>
+                <li>Adequate lighting and proper ventilation in all rooms.</li>
+            </ul>
+            <li class="ml-3" style="font-size:22px">Hygiene and Cleanliness</li>
+            <ul>
+                <li>Regular cleaning and maintenance of hostel premises.</li>
+                <li>Availability of clean drinking water with water purifiers and coolers.</li>
+                <li>Attached or common washrooms with 24/7 hot water supply.</li>
+            </ul>
+            <li class="ml-3" style="font-size:22px"> Nutritious Meals</li>
+            <ul>
+                <li>Well-balanced and nutritious meals served in the dining hall.</li>
+                <li>A menu curated by dieticians to cater to growing children’s needs.</li>
+                <li>Special meal arrangements during festivals and cultural events.</li>
+            </ul>
+            <li class="ml-3" style="font-size:22px"> Safety and Security</li>
+            <ul>
+                <li>Round-the-clock security personnel stationed at hostel entrances</li>
+                <li>CCTV surveillance to monitor activities and ensure a safe environment.</li>
+                <li>Wardens and supervisors residing on campus to address emergencies.</li>
+            </ul>
+            <li class="ml-3" style="font-size:22px">Health and Wellness</li>
+            <ul>
+                <li>Regular medical check-ups and access to a first-aid center.</li>
+                <li>Tie-ups with local hospitals for emergency medical care.</li>
+                <li>Yoga and meditation sessions to promote mental well-being.</li>
+            </ul>
+        </ol>
+        <p class="hostel_detailed_para">The hostel at Basara Concept School ensures a nurturing environment where students can focus on their academics and personal growth while feeling at home. With its emphasis on safety, comfort, and overall development, it sets a benchmark for school hostels.</p>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+    <!-- celebration_fecilities_detailed_section-->
+    <div id="section_celebration">
+        <h2 class="approach_heading" style="padding-top:0px">Our <br> Celebrations</h2>
+        <h2 class="approach_detailed_h2" style="text-align:center">Celebrations at Basara Concept School</h2>
+        <p class="hostel_detailed_para">At Basara Concept School, we believe that celebrations play a vital role in enriching the school experience, fostering a sense of community, and encouraging the holistic development of our students. Our celebrations are designed to recognize important milestones, honor cultural diversity, promote creativity, and instill values of unity and teamwork among students, staff, and parents :</p>
+        <h2 class="approach_detailed_h2" style="text-align:center">Cultural and Religious Celebrations</h2>
+        <p class="hostel_detailed_para">Our school embraces the diverse cultural and religious backgrounds of our students. Throughout the academic year, we celebrate various festivals such as Diwali, Eid, Christmas, and Pongal, along with national holidays like Republic Day and Independence Day. These celebrations offer a wonderful opportunity for students to share their traditions and learn about others, promoting mutual respect and understanding.</p>
+        <h2 class="approach_detailed_h2" style="text-align:center">Annual Day and Sports Day</h2>
+        <p class="hostel_detailed_para">Our Annual Day is one of the most anticipated events, where students showcase their talents through performances, speeches, dances, and drama. It is an exciting occasion that allows students to shine on stage and receive recognition for their hard work. Additionally, Sports Day is a highlight of our school calendar, bringing together students, teachers, and parents to cheer for their favorite teams in a friendly yet competitive atmosphere.</p>
+        <h2 class="approach_detailed_h2" style="text-align:center">Teacher’s Day and Children’s Day</h2>
+        <p class="hostel_detailed_para">We celebrate Teacher’s Day with great respect, honoring the dedication and hard work of our educators. Students express their gratitude through performances, gifts, and special activities. Similarly, Children’s Day is a joyous occasion dedicated to our students, where they enjoy fun-filled activities, games, and surprises, emphasizing the importance of their growth and development.</p>
+        <h2 class="approach_detailed_h2" style="text-align:center">Farewell and Graduation Ceremony</h2>
+        <p class="hostel_detailed_para">As our students prepare to move on to the next phase of their academic journey, we organize a heartfelt Farewell Ceremony for graduating students. This event is a chance to reflect on their growth, accomplishments, and memories created at Basara Concept School. It is also a time for students to express their gratitude to their teachers and peers, marking a memorable chapter in their lives.</p>
+        <h2 class="approach_detailed_h2" style="text-align:center">Celebrating Student Achievements</h2>
+        <p class="hostel_detailed_para">At Basara Concept School, we believe every student has the potential to excel. We regularly celebrate individual and group achievements, whether it’s academic excellence, sports victories, artistic endeavors, or leadership skills. Special awards, certificates, and public recognition inspire students to continue pursuing their passions and achieve their best.</p>
+        <button class="btn btn-primary m-3 card-back-button" style="width:90px" onclick="display('section_home')">Back</button>
+
+    </div>
+    <!--online_assmission_form-->
+    <div id="section_online_addmission">
+        <div class="form-container">
+            <h2>Online <span> Admission</span><br><span>Book </span>a Seat</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-name">Student Name *</label>
+                        <input type="text" id="student-name" placeholder="Student Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="parent-name">Parent Name *</label>
+                        <input type="text" id="parent-name" placeholder="Parent Name" required>
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="mobile-number">Parent Mobile Number *</label>
+                        <input type="text" id="mobile-number" placeholder="Mobile Number" required pattern="[0-9]{10}">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="choose-branch">Choose Branch *</label>
+                        <select id="choose-branch" required>
+                            <option value="" disabled selected>Choose Branch</option>
+                            <option value="main branch">Main Branch</option>
+                            <option value="Nallapadu">Nallapadu (Hostel)</option>
+                            <option value="Vatticherukuru">Vatticherukuru</option>
+                            <option value="Nehrunagar">Nehrunagar</option>
+                            <option value="Perecherla">Perecherla</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="admission-year">Admission for Academic Year</label>
+                        <input type="text" id="admission-year" placeholder="Admission for Academic Year">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="admission-grade">Admission for Grade (or) Class *</label>
+                        <select id="choose-school" required>
+                            <option value="" disabled selected>Choose Grade (or) Class</option>
+                            <option value="LKG">LKG</option>
+                            <option value="UKG">UKG</option>
+                            <option value="1st">1st standard</option>
+                            <option value="2nd">2nd standard</option>
+                            <option value="3rd">3rd standard</option>
+                            <option value="4th">4th standard</option>
+                            <option value="5th">5th standard</option>
+                            <option value="6th">6th standard</option>
+                            <option value="7th">7th standard</option>
+                            <option value="8th">8th standard</option>
+                            <option value="9th">9th standard</option>
+                            <option value="10th">10th standard</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Enter previous school Name"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+        <button class="btn btn-primary m-3 card-back-button " style="width:90px" onclick="display('section_home')">Back</button>
+    </div>
+
+
+    <!--Address section-->
+    <footer>
+
+        <!-- Address_section-->
+        <div>
+            <div class="address_bg  ">
+                <div class="container">
+                    <div class="row">
+                        <!-- Basara tag-->
+                        <div class="col-12 col-md-12 ">
+                            <h3 class="address_h3"><SPAN>BASARA</SPAN><br>CONCEPT SCHOOL</h3>
+                            <p class="address_para ">Basara is distinguished by its highly qualified, trained, and experienced educators who
+                                are committed to delivering exceptional coaching to students. The implementation of e-based
+                                classrooms provides teachers with the opportunity to utilize advanced technologies, facilitating
+                                demonstrative instruction that enhances the learning experience.
+                            </p>
+                        </div>
+                        <div class="col-12  ">
+                            <h3 style="text-align:center">Locate us</h3>
+                            <hr class="hr">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.3024805250534!2d80.37541667490942!3d16.307481684407144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75924fe5292b%3A0x69cd1c1ba53a2417!2sBASARA%20CONCEPT%20SCHOOL!5e0!3m2!1sen!2sin!4v1733060238186!5m2!1sen!2sin" width="100%" height="280" style="border:0; margin-bottom:20px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- section_school_Address-->
+                        <div class="col-12 col-md-7 ">
+                            <h3 style="text-align:center">Address</h3>
+                            <hr class="hr">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div>
+                                    <h5>Main Branch</h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                    </svg>
+                                    <p>Chaitanyapuri 3rd line ,<br>Saibaba Road ,<br>Guntur .</p>
+                                </div>
+                                <div>
+                                    <h5>Nallapadu Branch (Hostel)</h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                    </svg>
+                                    <p style="margin-left:10px">Kendreya Vidyalam Opp.road ,<br>Nallapadu ,<br>Guntur .</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-between">
+                                <div>
+                                    <h5>Nehrunagar Branch</h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                    </svg>
+                                    <p>Nehrunagar 4th line ,<br>Guntur .</p>
+                                </div>
+                                <div style="padding-right:30px">
+                                    <h5>Vatticherukuru Branch </h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                    </svg>
+                                    <p style="margin-left:10px">palakaluru road ,<br>Perecherla ,<br>Guntur ..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- section_connect_us_small_device-->
+                        <div class="col-12 col-md-5 d-flex flex-row justify-content-between d-md-none">
+                            <div class=" mr-5">
+                                <h3 style="text-align:center">Quick Links</h3>
+                                <hr class="hr">
+                                <ul>
+                                    <li><a href="#About" class="quick_links">About us</a></li>
+                                    <li><a href="#Admissions" class="quick_links">Admission Procedure</a></li>
+                                    <li><a href="#Online" class="quick_links">Online Admission</a></li>
+                                    <li><a href="#Hostels" class="quick_links">Hostels</a></li>
+                                    <li><a href="#Celebrations" class="quick_links">Celebrations</a></li>
+                                </ul>
+                            </div>
+                            <div class="mr-3">
+                                <h3 style="text-align:center">Connect with us</h3>
+                                <hr class="hr">
+                                <div class="d-flex flex-row justify-content-between" style="width:150px">
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook ml-5" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                        </svg>
+                                    </a>
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- section_connect_us_medium_device-->
+                        <div class="col-12 col-md-5 d-flex flex-column justify-content-between d-none d-md-block">
+                            <div class=" mr-5 d-none d-md-block">
+                                <h3 style="text-align:center">Quick Links</h3>
+                                <hr class="hr">
+                                <ul>
+                                    <li><a href="#About" class="quick_links">About us</a></li>
+                                    <li><a href="#Admissions" class="quick_links">Admission Procedure</a></li>
+                                    <li><a href="#Online" class="quick_links">Online Admission</a></li>
+                                    <li><a href="#Hostels" class="quick_links">Hostels</a></li>
+                                    <li><a href="#Celebrations" class="quick_links">Celebrations</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-none d-md-block mr-5">
+                                <h3 style="text-align:center">Connect with us</h3>
+                                <hr class="hr">
+                                <div class="d-flex flex-row justify-content-between" style="width:150px">
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook ml-5" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                        </svg>
+                                    </a>
+                                    <a href="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align:center; margin:5px">&copy; 2024 Basara Concept School - All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,984 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.basara_img {
+    width: 100%;
+    max-width: 1200px;
+    height: 17vh;
+    display: block;
+    margin: 0 auto;
+    /* Centers the image */
+}
+
+@media (max-width: 1280px) {
+    .basara_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .basara_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .basara_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .basara_img {
+        max-width: 100%;
+        /* Reduce size slightly for large screens */
+        height: 20vh;
+        /* Maintains aspect ratio */
+        margin: 0 auto;
+        /* Ensures it is centered */
+    }
+}
+
+.basara_logo {
+    width: 20vw;
+    height: 18vh;
+}
+
+.nav_size {
+    font-size: 30px;
+    width: 100vw;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.text-hover {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.text-hover:hover {
+    color: #ffd700;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li a {
+    padding: 10px 20px;
+}
+
+.dropdown li a:hover {
+    background-color: #ffd700;
+}
+
+marquee {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: orange;
+    background-color: #fff;
+    font-weight: bold;
+    width: 97vw;
+    cursor: pointer;
+
+}
+
+.accadamics_card {
+    background-color: #FFF;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+.curriculum_bg_img {
+    background-image: url("https://imgs.search.brave.com/L5TvcViXlpTiuI1fWOB3rDYYv8HA4_OcanDa8C28LyI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jaGFsa2JvYXJk/LWJhY2tncm91bmQt/d2l0aC1zY2hvb2wt/c3VwcGxpZXMtY29y/bmVyc185NDMwODct/NTM4OC5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw");
+    width: 100vw;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.curriculum_heading {
+    text-align: center;
+    font-family: "Caveat";
+    color: #ffffff;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+.Holistic_heading {
+    font-family: "Dancing Script";
+    color: #808000;
+    padding-left: 5px;
+    font-size: 30px;
+
+}
+
+.Holistic_para {
+    font-family: "Times New Roman";
+    color: #123123;
+    padding-left: 10px;
+}
+
+.holistic_image {
+    width: 75%;
+    height: 23vh;
+    margin-top: 10px;
+}
+
+.faculty_bg_img {
+    background-image: url("https://imgs.search.brave.com/1r7z4mCFHDjsuGxa9nT4cyKpfGLEmpP_mDrJ0u7AO7k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by90/b3Atdmlldy1wYWlu/dGluZy1tYXRlcmlh/bC1saW5lc18yMy0y/MTQ3OTYxNTk0Lmpw/Zz9zaXplPTYyNiZl/eHQ9anBn");
+    width: 100vw;
+    border-radius: 10px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.faculty_smart_heading {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-family: "Montserrat";
+}
+
+.faculty_img {
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty_img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.faculty_h6 {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.faculty_h6:hover {
+    color: #0069d9;
+}
+
+.faculty_para {
+    font-size: 25px;
+    color: #555;
+    line-height: 1.7;
+    padding: 20px;
+    font-family: "Times New Roman";
+    border-radius: 8px;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.faculty_para:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .faculty_smart_heading {
+        font-size: 1.8em;
+    }
+
+    .faculty_para {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .curriculum_heading {
+        font-size: 2.5em;
+    }
+
+    .faculty_smart_heading {
+        font-size: 1.6em;
+    }
+
+    .faculty_para {
+        font-size: 20px;
+    }
+}
+
+.hr {
+    border-color: #fff;
+    width: 150px;
+    display: start;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #0074D9;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.images-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.images-section img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact_detailed_card {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #000;
+    border-style: solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.contact_detailed_card2 {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #000;
+    border-style: solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.addmissions_image1 {
+    background-image: url("https://res.cloudinary.com/dgwlzccwg/image/upload/v1730182837/addmission_img1_nfeizf.jpg");
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    padding: 10px;
+}
+
+.addmissions_card {
+    height: 200px;
+    background-size: cover;
+    background-color: #FFF3CD;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-color: #000;
+    text-align: center;
+}
+
+.addmission_card_sm {
+    background-color: #FFF3CD;
+    background-size: cover;
+    text-align: center;
+    width: 540px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.sm_para_card {
+    color: transparent;
+    background-image: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: blink 5s infinite linear;
+}
+
+.addmissions_total_card {
+    cursor: pointer;
+    background-position: center;
+    opacity: 5;
+    transition: opacity 0.3s ease;
+
+}
+
+.addmissions_total_card:hover {
+    opacity: 0.5;
+}
+
+.addmissions_heading {
+    font-size: 40px;
+    font-family: "play fair display";
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    padding-top: 0px;
+    animation: blink 2s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+
+}
+
+.addmission_detailed_sec_bg_img {
+    background-image: url("https://imgs.search.brave.com/luqH0BzMHQx3k_mUibC8JGCjPdYsGkRuf-F6KEyjAbE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzEyLzY4Lzgy/LzM2MF9GXzExMjY4/ODI5MV9TUFNUaDBv/NWFHQ0dzcHdNbkRz/R2F3TXJic1FFUmpp/ai5qcGc");
+    width: 100vw;
+    height: 18vh;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.addmission_detailed_h2 {
+    font-family: "Dancing Script";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.addmission_detailed_para {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+.approach_image1 {
+    background-image: url("https://res.cloudinary.com/dgwlzccwg/image/upload/v1729924312/approaches_img_bvosvq.jpg");
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+}
+
+.approach_heading {
+    font-size: 40px;
+    font-family: "play fair display";
+    text-align: center;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, #FF5733, #64ff33, #33fff6);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: blink 5s infinite linear;
+    padding-top: 30px;
+}
+
+.approach_detailed_sec_bg_img {
+    background-image: url("https://imgs.search.brave.com/5FHRRxacEBmCkvl_Ui-pn5r2xJin9lcoeeZ5c8f_wP8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjk2/MzA3MzY0L3Bob3Rv/L3RlYWNoLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1aSG92/eE5BN3VlVm1OcVZI/dk1jNFJ1QnlEZW1B/WndBLUpfMWowTmto/Tjh3PQ");
+    width: 100vw;
+    height: 18vh;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.approach_detailed_heading {
+    font-size: 30px;
+    font-family: "play fair display";
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.approach_stu_teacher_img {
+    height: 330px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.approach_detailed_h2 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.approach_detailed_para {
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.atal_lab_image1 {
+    background-image: url("https://imgs.search.brave.com/O6vKjGRws2_pUeoIpY4WtRPmlOavSYJJ2VcLgd9S25M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90aW5r/ZXIubHkvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDIvYXRs/aW1hZ2UxLTEwMjR4/NzY4LmpwZw");
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+}
+
+.atal_heading {
+    font-size: 40px;
+    font-family: "Sans-Serif";
+    text-align: center;
+    color: #E377C2;
+    padding-top: 20px;
+    font-weight: bold;
+    animation: shadowBlink 1s infinite;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #ff5733;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes shadowBlink {
+
+    0%,
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.7);
+    }
+}
+
+.atal_lab_detailed_sec_bg_img {
+    background-image: url("https://imgs.search.brave.com/2kxxS-DGqVDh77WTVG173gfqvzY-Hup4M4mKdA9dtn8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTIy/Nzg0MjI4L3Bob3Rv/L29sZC1ib29rLWNv/dmVyLndlYnA_YT0x/JmI9MSZzPTYxMng2/MTImdz0wJms9MjAm/Yz1VTmF2d1JXb1dv/N2pYVUt1MDBCQ0pj/NkFCZ1diOTBpeU53/YTB4YjJoejkwPQ");
+    width: 100vw;
+    height: 18vh;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.atal_lab_detailed_heading {
+    font-size: 30px;
+    font-family: "play fair display";
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 23px;
+}
+
+.atal_key_features_img {
+    width: 280px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.sports_image1 {
+    background-image: url("https://nalandaschool.org/wp-content/uploads/2024/01/Physical-Mental-and-other-Health-Benefits-of-Sports-Nalanda-International-School-1024x683.png");
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+}
+
+.sports_heading {
+    font-family: "play fair display";
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+}
+
+.sports_para {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+chairpersons_card {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.chairpersons_card h1 {
+    font-weight: bold;
+    color: #004a94;
+    margin-bottom: 30px;
+}
+
+.chairman_img {
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.chairman_img:hover {
+    transform: scale(1.05);
+}
+
+.chairpersons_card h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+.chairpersons_card p {
+    text-align: justify;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #004a94;
+    width: 60%;
+}
+
+.shadow {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about_detailed_bg_img {
+    width: 60%;
+    height: 18vh;
+    background-size: cover;
+    padding-left: 10%;
+}
+
+.art_culture_img1 {
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .approach_heading {
+        font-size: 1.5rem;
+    }
+}
+
+.vision_card {
+    border-radius: 10px;
+    margin: 20px 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.vision_card h4,
+.vision_card h6 {
+    font-weight: bold;
+}
+
+.vision_card h4 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.vision_card p {
+    font-size: 16px;
+}
+
+.vision_bg_img {
+    width: 100vh;
+    text-align: center;
+    height: 18vh;
+    background-size: cover;
+}
+
+.vision_content_card {
+    font-size: 18px;
+    font-family: "Times New Roman";
+    padding: 10px;
+}
+
+.card-button {
+    background-color: white;
+    color: #333;
+    border-width: 2px;
+    border-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Parent Choose Section Styling */
+.parent_choose_section {
+    background-color: #5a98e1;
+    border-radius: 15px;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.parent_choose_section h6 {
+    font-size: 18px;
+    color: #f5e8e8;
+    font-weight: bold;
+}
+
+.parent_choose_section h3 {
+    font-weight: bold;
+    font-size: 32px;
+    transition: transform 0.3s ease, color 0.3s ease-in-out;
+}
+
+.parent_choose_section hr {
+    width: 100px;
+    border-top: 2px solid #fff;
+    margin: 10px auto;
+}
+
+.parent_choose_section h3:hover {
+    color: #ffeb3b;
+    transform: scale(1.1);
+}
+
+.parent_choose_section h6:hover {
+    color: #ffd54f;
+    transition: color 0.3s ease-in-out;
+}
+
+.info-block {
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-block:hover {
+    transform: translateY(-10px);
+}
+
+.hostel_card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: "Times New Roman";
+}
+
+.hostel_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hostel_home_section_img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.hostel_h3_card {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #333;
+}
+
+.hostel_button {
+    background-color: #818589;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hostel_button:hover {
+    background-color: #0056b3;
+}
+
+.hostel_detailed_para {
+    font-family: "Times New Roman";
+    padding-left: 20px;
+}
+
+
+.Addmission_apply_section_card {
+    background-color: #528ee1;
+    background-size: cover;
+    font-family: "Times New Roman";
+    padding: 20px;
+    color: #FFFDF4;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.art_culture_img {
+    width: 28vh;
+    height: 20vh;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Gallery images */
+.gallery_img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery_img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1024px) {
+    .gallery_img {
+        max-width: 250px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery_img {
+        max-width: 200px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(1, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+h2 span {
+    color: red;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #003d80;
+}
+
+button {
+    background-color: transparent;
+
+}
+
+.card-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.card-button:hover {
+    background-color: #0001fc;
+}
+
+.card-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-color: #fff;
+}
+
+.card-back-button:hover {
+    background-color: #DA2528;
+}
+
+/* footer section */
+.address_bg {
+    background-color: #004a94;
+    background-size: cover;
+    color: #fff;
+    width: 100vw;
+}
+
+.address_basara_heading {
+    color: red;
+    font-family: "PlayFair Display";
+    padding-left: 30PX;
+    margin-top: 0px;
+}
+
+.address_h3 {
+    background-color: blue;
+    height: 70px;
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30PX;
+    margin-top: 20px;
+}
+
+span {
+    color: red;
+    font-sizE: 20px;
+}
+
+.address_para {
+    font-family: "Times New Roman";
+    width: 300px;
+    padding-left: 20px;
+}
+
+.quick_links {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.quick_links:hover {
+    color: gray;
+}
